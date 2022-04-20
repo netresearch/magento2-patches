@@ -12,7 +12,7 @@
                 "103.0.*": [
                     {
                         "title": "[BUGFIX] Integration tests failing during Magento setup #33802",
-                        "url": "https://github.com/magento/magento2/pull/33803.patch"
+                        "url": "https://raw.githubusercontent.com/netresearch/magento2-patches/main/patches/33803.patch"
                     }
                 ]
             }
