@@ -1,0 +1,21 @@
+{
+    "name": "netresearch/magento2-patches",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "require": {
+        "netresearch/composer-patches-plugin": "~1.0"
+    },
+    "extra": {
+        "patches": {
+            "magento/framework":     
+            {
+                "103.0.*": [
+                    {
+                        "title": "[BUGFIX] Integration tests failing during Magento setup #33802",
+                        "url": "https://github.com/magento/magento2/pull/33803.patch"
+                    }
+                ]
+            }
+        }
+    }
+}
